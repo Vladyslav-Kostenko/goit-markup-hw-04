@@ -107,7 +107,8 @@ header .name-part-2 {
     color: var(--accent-color);
 }
 
-.navigation :hover {
+.navigation :hover,
+.navigation :focus {
     color: var(--accent-color);
 }
 
@@ -148,7 +149,11 @@ header {
 .header-mail:hover,
 .header-mail:hover .icon-envelope,
 .header-phone:hover,
-.header-phone:hover .icon-envelope {
+.header-phone:hover .icon-envelope,
+.header-mail:focus,
+.header-mail:focus .icon-envelope,
+.header-phone:focus,
+.header-phone:focus .icon-envelope {
     color: var(--accent-color);
 }
 
@@ -180,7 +185,8 @@ header {
 
 .mail:hover,
 .tel:hover,
-.mail:focus .tel:focus {
+.mail:focus,
+.tel:focus {
     color: var(--accent-color);
 }
 
@@ -352,7 +358,8 @@ footer .header {
     margin-right: 10px;
 }
 
-.social-links .link:hover {
+.social-links .link:hover,
+.social-links .link:focus {
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
 }
@@ -391,7 +398,8 @@ footer .header {
     color: #AFB1B8;
 }
 
-.clients-list .link:hover {
+.clients-list .link:hover,
+.clients-list .link:focus {
     border: 1px solid #2196F3;
     color: #2196F3;
 }
@@ -462,7 +470,8 @@ footer .adress {
     color: var(--secondary-text-color);
 }
 
-.footer-links .link:hover {
+.footer-links .link:hover,
+.footer-links .link:focus {
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
 }
@@ -499,6 +508,7 @@ footer .adress {
 .filters button:focus {
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .projects-list {
@@ -517,6 +527,11 @@ footer .adress {
 .projects-list .item {
     width: 370px;
     border: 1px solid var(--second-stroke-color);
+}
+
+.projects-list .item:hover,
+.projects-list .item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects-list .text-padding {
