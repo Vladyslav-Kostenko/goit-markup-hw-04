@@ -339,7 +339,7 @@ footer .header {
     margin-right: 32px;
 }
 
-.social-links .social-link:not(:last-child) {
+.social-links .social-link:not(:last-child):not(:last-child) {
     margin-right: 10px;
 }
 
