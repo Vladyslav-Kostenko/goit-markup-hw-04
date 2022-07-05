@@ -180,7 +180,6 @@ header {
 .mail,
 .tel {
     color: var(--additional-text-color);
-    font-weight: 500;
 }
 
 .mail:hover,
@@ -206,7 +205,7 @@ header {
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.6;
+    line-height: 1.36;
     text-transform: uppercase;
 }
 
@@ -261,10 +260,16 @@ footer .header {
 }
 
 .features .block-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+
     background-color: var(--additional-page-color);
     border-radius: 4px;
-    padding: 25px 100px;
-    margin-bottom: 30px;
 }
 
 .features .icon {
