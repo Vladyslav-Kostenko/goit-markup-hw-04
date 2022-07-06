@@ -192,6 +192,7 @@ header {
 .idea {
     padding-top: 200px;
     padding-bottom: 200px;
+    
     text-align: center;
     background-color: var(--secondary-page-color);
     color: var(--secondary-text-color);
@@ -211,11 +212,14 @@ header {
 
 .order-button {
     padding: 10px 32px;
+
     border-radius: 5px;
-    border: 0;
+    border: 0;    
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
+
     cursor: pointer;
+
     font-weight: 700;
     font-size: 16px;
     line-height: 2;
@@ -498,15 +502,18 @@ footer .adress {
 }
 
 .filters button {
+    padding: 6px 22px;
+
+    border-radius: 5px;
+    border: 0;
     background-color: var(--additional-page-color);
+
     cursor: pointer;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.65;
     letter-spacing: 0.03em;
-    border-radius: 5px;
-    border: 0;
-    padding: 6px 22px;
 }
 
 .filters button:hover,
